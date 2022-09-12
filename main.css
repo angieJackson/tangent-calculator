@@ -1,0 +1,62 @@
+﻿body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+    background-color: #e8e0c5;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 0 0 12px 0;
+}
+
+.form-input {
+    background-color: #fff;
+    border-radius: 3px;
+    font-weight: 300;
+    height: 20px;
+    width: 200px;
+    border: 1px solid #ced4da;
+    display: block;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: forestgreen;
+    color: #fff;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 5px;
+    margin: 20px 0;
+    display: block;
+}
+
+label {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    line-height: 1;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
